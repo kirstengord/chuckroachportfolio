@@ -1,0 +1,61 @@
+hr {
+    border-style: solid none none none;
+    border-color: black;
+    border-width: 5px;    
+}
+
+a.navbar-brand{
+    color: black;
+    font-family: 'Bebas Neue', cursive !important;
+    font-size: 3rem;
+}
+
+
+div.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.bottom-container {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+}
+
+.contact-container {
+    height: 50px;
+    width: 100px;
+}
+
+.contact-me {
+    justify-content: space-around;
+}
+.contact-img {
+    margin: 20px;
+}
+
+.container {
+    margin-top: 10px;
+}
+
+.container-img {
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.container-item {
+    margin-top: 10px;
+}
+
+.extra-space {
+    height: 50px;
+}
+
+.navbar {
+    background-color: #f6f6f6;
+}
+
+
+
