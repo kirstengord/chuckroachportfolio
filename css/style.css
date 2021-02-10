@@ -17,6 +17,10 @@ div.container {
     justify-content: space-around;
 }
 
+.about-middle-container {
+    margin: 20px;
+}
+
 .bottom-container {
     display: flex;
     height: 100px;
@@ -47,6 +51,10 @@ div.container {
 
 .container-item {
     margin-top: 10px;
+}
+
+.copyright-container {
+    text-align: center;
 }
 
 .extra-space {
