@@ -37,12 +37,11 @@ div.container {
 
 .about-img-1 {
     float: left;
-    margin: auto 30px 10px auto;
+    margin: auto 30px 10px 10px;
 }
 
 .about-middle-container {
     display: flex;
-    margin: 50px, 10px;
 }
 
 .about-middle-container-row {
@@ -52,6 +51,7 @@ div.container {
 .about-text {
     font-family: 'Montserrat', sans-serif;
     line-height: 2;
+    font-size: 18px;
 }
 
 .about-text-space {
