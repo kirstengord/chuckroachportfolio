@@ -1,13 +1,27 @@
+
+/*Element selectors*/
+
 hr {
     border-style: solid none none none;
     border-color: black;
     border-width: 5px;    
 }
 
-a.navbar-brand{
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*Element.Class selectors*/
+
+a.navbar-brand {
     color: black;
     font-family: 'Bebas Neue', cursive !important;
     font-size: 3rem;
+}
+
+a.nav-link {
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -16,6 +30,8 @@ div.container {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+/*Class Selectors*/
 
 .about-middle-container {
     margin: 20px;
@@ -60,6 +76,14 @@ div.container {
 .extra-space {
     height: 50px;
 }
+
+.location-container-item {
+    margin: 30px 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
 
 .navbar {
     background-color: #f6f6f6;
