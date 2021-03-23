@@ -7,12 +7,30 @@ hr {
     border-width: 5px;    
 }
 
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    padding: 15px 0;
+}
+
 p {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+button {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+body.portfolio {
+    padding-top: 75px;
+}
+
 
 /*Element.Class selectors*/
+
+.navbar {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 a.navbar-brand {
     color: black;
@@ -36,6 +54,7 @@ div.container {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
 
 /*Class Selectors*/
 
@@ -89,6 +108,9 @@ div.container {
     height: 400px;
     width: 300px;
     object-fit: cover;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .container-item {
@@ -123,6 +145,10 @@ div.container {
 .navbar {
     background-color: #f6f6f6;
 }
+
+/* Portfolio page */
+
+/* contact page */
 
 
 
