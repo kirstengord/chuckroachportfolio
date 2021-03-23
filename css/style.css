@@ -21,14 +21,20 @@ button {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-body.portfolio {
-    padding-top: 75px;
+body {
+    padding-top: 110px;
+}
+
+footer {
+    background-color: #c5c4c4;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
 /*Element.Class selectors*/
 
 .navbar {
+    background-color: #c5c4c4 !important;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -84,10 +90,13 @@ div.container {
 
 .bottom-container {
     display: flex;
-    height: 100px;
     justify-content: center;
 }
 
+#contact p {
+    padding-top: 15px;
+    margin: 20px;
+}
 .contact-container {
     height: 50px;
     width: 100px;
@@ -106,7 +115,7 @@ div.container {
 
 .container-img {
     height: 400px;
-    width: 300px;
+    width: 290px;
     object-fit: cover;
     margin-bottom: 25px;
     border-radius: 10px;
@@ -117,9 +126,14 @@ div.container {
     margin-top: 10px;
 }
 
+.white {
+    color: white;
+}
 .copyright {
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
+    padding: 10px 0 16px;
+    margin-bottom: 0;
 }
 
 .copyright-container {
@@ -142,9 +156,7 @@ div.container {
     text-align: center;
 }
 
-.navbar {
-    background-color: #f6f6f6;
-}
+
 
 /* Portfolio page */
 
