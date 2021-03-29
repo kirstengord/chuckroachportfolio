@@ -14,7 +14,7 @@ h4 {
 }
 
 p {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 button {
@@ -95,7 +95,7 @@ div.container {
 
 #contact p {
     padding-top: 15px;
-    margin: 20px;
+    margin: 0;
 }
 .contact-container {
     height: 50px;
