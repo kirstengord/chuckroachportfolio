@@ -1,5 +1,12 @@
 
 /*Element selectors*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 
 hr {
     border-style: solid none none none;
@@ -7,15 +14,12 @@ hr {
     border-width: 5px;    
 }
 
+
 h4 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
-    padding: 15px 0;
+    padding: 15px;
 }
 
-p {
-    font-family: 'Roboto', sans-serif;
-}
 
 button {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -28,6 +32,7 @@ body {
 footer {
     background-color: #c5c4c4;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: auto;
 }
 
 
@@ -76,7 +81,6 @@ div.container {
 
 .about-text {
     color: black;
-    font-family: 'Montserrat', sans-serif;
     line-height: 2;
     font-size: 18px;
     margin: 20px;
@@ -100,6 +104,11 @@ div.container {
 .contact-container {
     height: 50px;
     width: 100px;
+}
+
+.contact {
+    margin-top: 50px;
+    font-weight: 600;
 }
 
 .contact-me {
@@ -129,6 +138,8 @@ div.container {
 .white {
     color: white;
 }
+
+
 .copyright {
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
