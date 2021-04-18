@@ -6,14 +6,14 @@
     <title>Chuck Roach</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="favicon.ico">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/1c9ad4b785.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&family=Montserrat:wght@100;400;600&family=Roboto+Condensed&display=swap" rel="stylesheet">
   </head>
 
   <navigation>
-   
-    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-light">
       <a class="navbar-brand" href="index.html">Chuck Roach</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -21,7 +21,12 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item dropdown">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
+          <a class="nav-link dropdown-toggle" href="index.html" data-toggle="dropdown">Portfolio</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#portraits">Portraits</a></li>
+            <li><a class="dropdown-item" href="#western">Western</a></li>
+            <li><a class="dropdown-item" href="#Starbucks">Starbucks Series</a></li>
+          </ul>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="about.html">About</a>
@@ -33,48 +38,158 @@
           <a class="nav-link" href="contact.html">Contact</a>
         </li>
       </ul>
-     </div>
+      </div>
     </nav>
- 
   </navigation>
-
-  <body>
-
+  <body class="portfolio">
+      
+      <div id="portraits">
+        <h4>Portraits</h4>
+      </div>
       <div class="container">
+        <div class="container-item">
+          <a href="images/manwithcigar.JPG" target="_blank"><img class="container-img" src="images/Portfolio/Portraits/manwithcigar.JPG" alt="Man-with-cigar"></a>
+        </div>
+        <div class="container-item">
+          <img class="container-img" src="images/Portfolio/Portraits/fourlittleboy.JPG" alt="Little-boy">
+        </div>
+        <div class="container-item">
+          <img class="container-img" src="images/Portfolio/Portraits/yellowstone.JPG" alt="Yellowstone-couple">
+        </div>
+    </div>
+    <div id="western">
+      <h4>Western</h4>
+    </div>
+    <div class="container">
           <div class="container-item">
-            <a href="images/Portfolio/Portraits/manwithcigar.JPG" target="_blank"><img class="container-img" src="images/Portfolio/Portraits/manwithcigar.JPG" alt="Man-with-cigar"></a>
+            <img class="container-img" src="images/Portfolio/Famous-Faces/willienelson.JPG" alt="Willie-nelson">
           </div>
           <div class="container-item">
             <img class="container-img" src="images/Portfolio/Western/miketrailer.JPG" alt="Cowboy">
           </div>
           <div class="container-item">
-            <img class="container-img" src="images/Portfolio/Famous-Faces/willienelson.JPG" alt="Willie-nelson">
+            <img class="container-img" src="images/Portfolio/Western/lovecloseup.JPG" alt="Couple-in-love">
           </div>
-      </div>
-      
-      
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-  </body>
-  <footer id="index">
-    <div class="bottom-container">
-      <div class="contact-container">
-
-      </div>
-      <div class="contact-me">
-        <a href="mailto:arrowheadx@aol.com"><img class="contact-img" src="images/email.png" alt="Email Me"></a>
-        <a href="https://www.facebook.com/chuck.roach.94"><img class="contact-img" src="images/facebook.png" alt="Follow me on Facebook"></a>
-     </div>
-     <div class="contact-container">
-
-     </div>
+          <div class="container-item">
+            <img class="container-img" src="images/Portfolio/Western/bronco.JPG" alt="Bronco">
+          </div>
+          <div class="container-item">
+           <img class="container-img" src="images/Portfolio/Western/ClintEastwood.JPG" alt="Clint-Eastwood">
+          </div>
+          <div class="container-item">
+            <img class="container-img" src="images/Portfolio/Western/Cowboy.JPG" alt="Cowboy">
+          </div>
+          <div class="container-item">
+            <img class="container-img" src="images/Portfolio/Western/cowboycigarette.JPG" alt="cowboy">
+          </div>
+          <div class="container-item">
+           <img class="container-img" src="images/Portfolio/Western/Cowboy2.JPG" alt="Cowboy">
+          </div>
+          <div class="container-item">
+            <img class="container-img" src="images/Portfolio/Western/cowboycigarette2.JPG" alt="Cowboy">
+          </div>
+          <div class="container-item">
+            <img class="container-img" src="images/Portfolio/Western/cowboyonhorse.JPG" alt="Cowboy-on-horse">
+          </div>
+          <div class="container-item">
+            <img class="container-img" src="images/Portfolio/Western/cowboypistol.JPG" alt="Cowboy-with-pistol">
+          </div>
+          <div class="container-item">
+            <img class="container-img" src="images/Portfolio/Western/Cowboys.JPG" alt="Cowboys">
+          </div>
+          <div class="container-item">
+            <img class="container-img" src="images/Portfolio/Western/cowgirl.png" alt="Cowgirl">
+          </div>
+          <div class="container-item">
+            <img class="container-img" src="images/Portfolio/Western/JohnWayne.JPG" alt="John-Wayne">
+          </div>
+          <div class="container-item">
+            <img class="container-img" src="images/Portfolio/Western/JohnWayneembrace.JPG" alt="John-Wayne-embrace">
+          </div>
+          <div class="container-item">
+            <img class="container-img" src="images/Portfolio/Western/libertyvalence.JPG" alt="Liberty-Valence">
+          </div>
+          <div class="container-item">
+            <img class="container-img" src="images/Portfolio/Western/manandwoman.JPG" alt="Man-and-woman">
+          </div>
+          <div class="container-item">
+            <img class="container-img" src="images/Portfolio/Western/samelliott.JPG" alt="Sam-Elliott">
+          </div>
+          <div class="container-item">
+            <img class="container-img" src="images/Portfolio/Western/SundanceKid.JPG" alt="Sundance-Kid">
+          </div>
     </div>
-    <div class="copyright-container">
-      <p class="copyright">© 2021 by Kirsten Gord - <a class="white" href="https://kirstengord.github.io/kirstengord/" target="_blank">KG:design</a></p>
+    <div id="Starbucks">
+      <h4>Starbucks Series</h4>
     </div>
+    <div class="container">
+      <div class="container-item">
+        <img class="container-img" src="images/Portfolio/Starbucks/sb1.JPG" alt="Starbucks-portrait">
+      </div>
+      <div class="container-item">
+        <img class="container-img" src="images/Portfolio/Starbucks/sb2.JPG" alt="Starbucks-portrait">
+      </div>
+      <div class="container-item">
+        <img class="container-img" src="images/Portfolio/Starbucks/sb3.JPG" alt="Starbucks-portrait">
+      </div>
+      <div class="container-item">
+        <img class="container-img" src="images/Portfolio/Starbucks/sb4.JPG" alt="Starbucks-portrait">
+      </div>
+      <div class="container-item">
+        <img class="container-img" src="images/Portfolio/Starbucks/sb5.JPG" alt="Starbucks-portrait">
+      </div>
+      <div class="container-item">
+        <img class="container-img" src="images/Portfolio/Starbucks/sb6.JPG" alt="Starbucks-portrait">
+      </div>
+      <div class="container-item">
+        <img class="container-img" src="images/Portfolio/Starbucks/sb7.JPG" alt="Starbucks-portrait">
+      </div>
+      <div class="container-item">
+        <img class="container-img" src="images/Portfolio/Starbucks/sb8.JPG" alt="Starbucks-portrait">
+      </div>
+      <div class="container-item">
+        <img class="container-img" src="images/Portfolio/Starbucks/sb9.JPG" alt="Starbucks-portrait">
+      </div>
+      <div class="container-item">
+        <img class="container-img" src="images/Portfolio/Starbucks/sb10.JPG" alt="Starbucks-portrait">
+      </div>
+      <div class="container-item">
+        <img class="container-img" src="images/Portfolio/Starbucks/sb11.JPG" alt="Starbucks-portrait">
+      </div>
+      <div class="container-item">
+        <img class="container-img" src="images/Portfolio/Starbucks/sb12.JPG" alt="Starbucks-portrait">
+      </div>
+      <div class="container-item">
+        <img class="container-img" src="images/Portfolio/Starbucks/sb13.JPG" alt="Starbucks-portrait">
+      </div>
+      <div class="container-item">
+        <img class="container-img" src="images/Portfolio/Starbucks/sb14.JPG" alt="Starbucks-portrait">
+      </div>
+    </div>
+    
 
-  </footer>
+    
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+<footer>
+  <div class="bottom-container">
+    <div class="contact-container">
+
+    </div>
+    <div class="contact-me">
+      <a href="mailto:arrowheadx@aol.com"><i class="contact-icon white fas fa-envelope fa-2x"></i></a>
+      <a href="https://www.facebook.com/chuck.roach.94"><i class="contact-icon white fab fa-facebook fa-2x"></i></a>
+   </div>
+   <div class="contact-container">
+
+   </div>
+  </div>
+  <div class="copyright-container">
+    <p class="copyright">© 2021 by Kirsten Gord - <a class="white" href="https://kirstengord.github.io/kirstengord/" target="_blank">KG:design</a></p>
+  </div>
+</footer>
 </html>
